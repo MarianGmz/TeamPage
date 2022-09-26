@@ -82,6 +82,9 @@ main{
 
     transform: rotate(90deg);
 }
+.principal div p:first-child{
+    right: 13%;
+}
 footer{
     font-family: 'Montserrat';
 font-style: normal;
