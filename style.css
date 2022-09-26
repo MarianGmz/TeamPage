@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Trocchi&display=swap');
+main{
+    width: 100vw;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+.conteiner h1{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+.info{
+ 
+    width: 25%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Trocchi', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+    
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 85px;
+    width: 80%;
+    margin: 20px auto;
+}
+.principal div{
+    position: relative;
+    min-width: 300px;
+}
+.principal div img{
+    width: 80%;
+    height: 500px;
+    
+}
+.principal div:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 30% 0 0 0;
+
+}
+
+.principal div:nth-child(5){
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin: 30% 0 0 0;
+}
+
+.principal div h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.principal div p{
+    position: absolute;
+    top: 0;
+    right: 5%;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+    transform: rotate(90deg);
+}
+footer{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #A9A9A9;
+}

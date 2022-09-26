@@ -1,0 +1,94 @@
+
+@media screen and (max-width:1040px) {
+    .conteiner h1{
+        font-size: 3.7rem;
+    }
+    .principal{
+        width: 100%;
+        gap: 10px;
+        grid-template-rows: repeat(2,1fr);
+    }
+    .principal div {
+       height: fit-content;
+       
+        min-width: 100px;
+    }
+    .principal div {
+        width: 80%;
+        min-width: 100px;
+        position: relative;
+    }
+    .principal div img{
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0;
+
+    }
+    .principal div p{
+        position: absolute;
+        right: -4.6rem;
+        font-size: 1rem;
+    }
+    .principal div h3{
+        display: inline-block;
+        font-size: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width:480px) {
+    .conteiner h1{
+        font-size: 2rem;
+        width: 80%;
+        display: inline;
+
+    }
+    .conteiner{
+        display: block;
+        width: 100%;
+    }
+    .info{
+        display: inline-block;
+        margin: 10px 0;
+        width: 70%;
+        height: fit-content;
+        font-size: .8rem;
+        
+    }
+    .info h2{
+        font-size: 1rem;
+    }
+    .info p{
+        font-size: .5rem;
+    }
+    .principal{
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        gap: 10px;
+    }
+    .principal div {
+        width: 70%;
+        min-width: 100px;
+    }
+    .principal div img{
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0;
+
+    }
+    .principal div p{
+        
+        right: -3.3rem;
+        font-size: .7rem;
+    }
+    .principal div h3{
+        display: inline-block;
+        font-size: .9rem;
+    }
+    .principal div:nth-child(2),.principal div:nth-child(5),.principal div:nth-child(6){
+        transform: translateY(15%);
+    }
+   
+
+}
