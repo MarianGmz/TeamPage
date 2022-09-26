@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://mariangmz.github.io/TeamPage/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://">
+    <a href="https://github.com/MarianGmz/TeamPage.git">
       Solution
     </a>
     <span> | </span>
@@ -66,8 +66,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 
-## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
