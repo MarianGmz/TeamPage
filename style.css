@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Trocchi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ptserif:wght@300&family=Ptserif&display=swap');
 main{
     width: 100vw;
 }
@@ -37,8 +38,8 @@ main{
     margin: 20px auto;
 }
 .principal div{
-    position: relative;
-    min-width: 300px;
+    
+    width: 100%;
 }
 .principal div img{
     width: 80%;
@@ -65,35 +66,53 @@ main{
     line-height: 27px;
 }
 
-.principal div p{
-    position: absolute;
-    top: 0;
-    right: 5%;
-    font-family: 'PT Serif';
+.flex-div div p{
+    
+  
+    font-family: 'Ptserif';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    /* identical to box height */
+    width: 150px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    
+    
 
     text-transform: uppercase;
 
     color: #000000;
 
-    transform: rotate(90deg);
+    
 }
-.principal div p:first-child{
-    right: 13%;
-}
+
 footer{
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  
 
-text-align: center;
+    text-align: center;
 
-color: #A9A9A9;
+    color: #A9A9A9;
+}
+
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+   
+}
+.flex-div > div{
+    transform: rotate(90deg);
+    width: 100%;
+    margin: 0 0;
+    position: relative;
+    right: 13%;
+    bottom: 0;
+    
 }
